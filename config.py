@@ -14,7 +14,7 @@ API_HASH = getenv("7d85eb5ce156d35f22500fd8ef43e7c2")
 BOT_TOKEN = getenv("7041835456:AAGs-YwuA78Z6U_H_1gscDKUjjvSs_Xm9hw")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://tusharsingh3105@cluster0.q3oby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("1459770505", None))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQC4d3MALg1Hs9N-Z0vTrL5SWmflG-SHq4xTs_xiT_gvw-yxZLDFKejPb0pQVL3gk_5FdUTa4GCcPEP-idojJinq40IcHSkJ1wMbf81cjQQyJjexFbeeDAT-rcBkeWGh8WKUIJUVhLjJxmnkOy_s1C9KU60IfyBcWE7wWefz8KmyUm7xfrsayq5zURvT-0m65vfbCln-mO3MQu6cti4w_ax6OaIFnsOMizTzhTCyJS0jzCD84_yS1leljyYP_Z7vMrK86oda0EDcXAkq6lULjrWH9xWo7um47eHnAS9-5NyG6wyCj_Veb14IAiITnF_u-DLqCT-iDCApLlJdlgl6cnJyyZmnOgAAAAHLsxF2AA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
